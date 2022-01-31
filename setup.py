@@ -11,6 +11,8 @@ setup(
     install_requires=[
         "setuptools-rust",
         "singer-python>=5.0.12",
+        "cryptography",
+        "cryptography[secure]",
         "pyopenssl",
         "pyopenssl[tls]",
         "pyopenssl[secure]",
