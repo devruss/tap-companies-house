@@ -1,0 +1,13 @@
+/.ipynb_checkpoints/
+/build/
+/catalogs/
+/configs/
+/data/
+/dist/
+/schemas/
+/stream/
+/tap_companies_house.egg-info/
+/venv/
+config.json
+catalog.json
+.vscode

@@ -1,0 +1,14 @@
+{
+  "api_key": "************************************",
+  "sic_codes": ["64209 - Activities of other holding companies n.e.c.",
+    "64303 - Activities of venture and development capital companies",
+    "64304 - Activities of open-ended investment companies",
+    "64999 - Financial intermediation not elsewhere classified",
+    "66190 - Activities auxiliary to financial intermediation n.e.c.",
+    "66300 - Fund management activities",
+    "70221 - Financial management",
+    "82990 - Other business support service activities n.e.c."],
+  "selected_all": true,
+  "selected_streams": [""],
+  "start_date": "2021-01-01"
+}

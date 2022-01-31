@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "CompanyName": {
+      "type": ["null", "string"]
+    },
+    " CompanyNumber": {
+      "type": "string"
+    },
+    "RegAddress.CareOf": {
+      "type": ["null", "string"]
+    },
+    "RegAddress.POBox": {
+      "type": ["null", "string"]
+    },
+    "RegAddress.AddressLine1": {
+      "type": ["null", "string"]
+    },
+    " RegAddress.AddressLine2": {
+      "type": ["null", "string"]
+    },
+    "RegAddress.PostTown": {
+      "type": ["null", "string"]
+    },
+    "RegAddress.County": {
+      "type": ["null", "string"]
+    },
+    "RegAddress.Country": {
+      "type": ["null", "string"]
+    },
+    "RegAddress.PostCode": {
+      "type": ["null", "string"]
+    },
+    "CompanyCategory": {
+      "type": ["null", "string"]
+    },
+    "CompanyStatus": {
+      "type": ["null", "string"]
+    },
+    "CountryOfOrigin": {
+      "type": ["null", "string"]
+    },
+    "DissolutionDate": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    "IncorporationDate": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    "Accounts.AccountRefDay": {
+      "type": ["null", "number"]
+    },
+    "Accounts.AccountRefMonth": {
+      "type": ["null", "number"]
+    },
+    "Accounts.NextDueDate": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    "Accounts.LastMadeUpDate": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    "Accounts.AccountCategory": {
+      "type": ["null", "string"]
+    },
+    "Returns.NextDueDate": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    "Returns.LastMadeUpDate": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    "Mortgages.NumMortCharges": {
+      "type": ["null", "integer"]
+    },
+    "Mortgages.NumMortOutstanding": {
+      "type": ["null", "integer"]
+    },
+    "Mortgages.NumMortPartSatisfied": {
+      "type": ["null", "integer"]
+    },
+    "Mortgages.NumMortSatisfied": {
+      "type": ["null", "integer"]
+    },
+    "SICCode.SicText_1": {
+      "type": ["null", "string"]
+    },
+    "SICCode.SicText_2": {
+      "type": ["null", "string"]
+    },
+    "SICCode.SicText_3": {
+      "type": ["null", "string"]
+    },
+    "SICCode.SicText_4": {
+      "type": ["null", "string"]
+    },
+    "LimitedPartnerships.NumGenPartners": {
+      "type": ["null", "integer"]
+    },
+    "LimitedPartnerships.NumLimPartners": {
+      "type": ["null", "integer"]
+    },
+    "URI": {
+      "type": ["null", "string"]
+    },
+    "PreviousName_1.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_1.CompanyName": {
+      "type": ["null", "string"]
+    },
+    " PreviousName_2.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_2.CompanyName": {
+      "type": ["null", "string"]
+    },
+    "PreviousName_3.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_3.CompanyName": {
+      "type": ["null", "string"]
+    },
+    "PreviousName_4.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_4.CompanyName": {
+      "type": ["null", "string"]
+    },
+    "PreviousName_5.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_5.CompanyName": {
+      "type": ["null", "string"]
+    },
+    "PreviousName_6.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_6.CompanyName": {
+      "type": ["null", "string"]
+    },
+    "PreviousName_7.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_7.CompanyName": {
+      "type": ["null", "string"]
+    },
+    "PreviousName_8.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_8.CompanyName": {
+      "type": ["null", "string"]
+    },
+    "PreviousName_9.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_9.CompanyName": {
+      "type": ["null", "string"]
+    },
+    "PreviousName_10.CONDATE": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " PreviousName_10.CompanyName": {
+      "type": ["null", "string"]
+    },
+    "ConfStmtNextDueDate": {
+      "type": ["null", "string"],
+      "format": "date"
+    },
+    " ConfStmtLastMadeUpDate": {
+      "type": ["null", "string"],
+      "format": "date"
+    }
+  }
+}

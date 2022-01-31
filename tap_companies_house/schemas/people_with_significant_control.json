@@ -1,0 +1,200 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "company_number": {
+      "type": "string"
+    },
+    "address": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "address_line_1": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "address_line_2": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "care_of": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "country": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "locality": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "po_box": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "postal_code": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "premises": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "region": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "ceased_on": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "country_of_residence": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "date_of_birth": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "day": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "month": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "year": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "etag": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "links": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "self": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "statement": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name_elements": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "forename": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "other_forenames": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "surname": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "title": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "nationality": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "natures_of_control": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "string"
+        ]
+      }
+    },
+    "notified_on": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    }
+  }
+}

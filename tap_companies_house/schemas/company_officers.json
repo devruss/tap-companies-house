@@ -1,0 +1,225 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "company_number": {
+      "type": "string"
+    },
+    "address": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "address_line_1": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "address_line_2": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "care_of": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "country": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "locality": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "po_box": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "postal_code": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "premises": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "region": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "appointed_on": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    },
+    "country_of_residence": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "date_of_birth": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "day": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "month": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "year": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "former_names": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "forenames": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "surname": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
+    },
+    "identification": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "identification_type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "legal_authority": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "legal_form": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "place_registered": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "registration_number": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "links": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "officer": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "appointments": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "name": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "occupation": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "officer_role": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "resigned_on": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    }
+  }
+}
