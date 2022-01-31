@@ -11,6 +11,7 @@ setup(
     install_requires=[
         "setuptools-rust",
         "singer-python>=5.0.12",
+        "urllib3[secure]",
         "requests",
         "tqdm",
         "selenium",
