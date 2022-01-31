@@ -12,6 +12,7 @@ setup(
         "setuptools-rust",
         "singer-python>=5.0.12",
         "urllib3[secure]",
+        "pyOpenSSL",
         "requests",
         "tqdm",
         "selenium",
