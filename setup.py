@@ -14,6 +14,7 @@ setup(
         "urllib3[secure]",
         "pyOpenSSL",
         "requests",
+        "cryptography",
         "tqdm",
         "selenium",
         "chromedriver-binary",
