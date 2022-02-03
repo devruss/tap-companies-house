@@ -53,7 +53,7 @@ def download_file(url, filename=False, verbose=False):
                             , total=num_bars
                             , unit='KB'
                             , desc=local_filename
-                            , leave=True  # progressbar stays
+                            , leave=False  # progressbar stays
                     ):
                         fp.write(chunk)
                 success = True
